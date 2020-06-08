@@ -10,4 +10,4 @@ ADD DRT_cl /root/matlab_script/DRT_cl
 RUN chmod 777 -R /root/matlab_script/
 
 RUN rm -rf /script
-ENTRYPOINT ["/root/matlab_script/drt_cl"]
+ENTRYPOINT ["/root/matlab_script/DRT_cl"]
